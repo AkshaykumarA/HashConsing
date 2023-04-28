@@ -4,5 +4,5 @@
 
 
 ## Screenshots
+![App Screenshot]([http://url/to/img.png](https://course-description.ir/hc.png))
 
-![App Screenshot]([https://course-description.ir/hc.png])
