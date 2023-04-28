@@ -5,4 +5,4 @@
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://course-description.ir/hc.png))
+![App Screenshot]([https://course-description.ir/hc.png])
