@@ -4,5 +4,6 @@
 
 
 ## Screenshots
-![App Screenshot]([http://url/to/img.png](https://course-description.ir/hc.png))
+![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/Screenshot.png?raw=true)
+
 
