@@ -12,9 +12,9 @@ The get_exprs_hash function takes an expression and a hash table (a dictionary t
 
 
 ## Outputs
-Example #1
-In this example the input expression is : (((7 + 2) - (7 + 2)) + ((7 + 2) - (5 + 2)))
-As you can see the number of calculation using hash consing is lower than computation with normal method.
+Example #1 <br />
+In this example the input expression is : (((7 + 2) - (7 + 2)) + ((7 + 2) - (5 + 2))) <br />
+As you can see the number of calculation using hash consing is lower than computation with normal method. <br />
 
 ![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/main/images/Screenshot1.png?raw=true)
 
