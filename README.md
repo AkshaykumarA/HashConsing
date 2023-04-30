@@ -13,8 +13,9 @@ The get_exprs_hash function takes an expression and a hash table (a dictionary t
 ## Let Functionality
 We added LET Functionality to code to give variable X from user as input and use it in the final expression like this:
 <br />
-Add(Sub(Add(Var('x'), Const(2)),Add(Var('x'), Const(2))),Sub(Add(Var('x'), Const(2)),Add(Const(5), Const(2))))
-
+<br />
+Add(Sub(Add(<b>Var('x')</b>, Const(2)),Add(<b>Var('x')</b>, Const(2))),Sub(Add(<b>Var('x')</b>, Const(2)),Add(Const(5), Const(2))))
+<br />
 ## Outputs
 <b>Example #1</b> <br />
 In this example the input expression is :  <b>  (((x + 2) - (x + 2)) + ((x + 2) - (5 + 2))) </b> <br />
