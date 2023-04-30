@@ -10,6 +10,10 @@ The program takes an arithmetic expression as input, which is a tree-like struct
 We define a hierarchy of classes that represent mathematical expressions. There are three types of expressions: constants, variables, and binary operators (Add and Sub). Each expression class has an eval method that evaluates the expression with a given environment (a dictionary of variable values).
 The get_exprs_hash function takes an expression and a hash table (a dictionary that maps expressions to their hashed versions) and returns a tuple containing the hashed expression, the updated hash table, and the number of expressions that were hashed. The function works by recursively calling itself on sub-expressions until it reaches a constant or a variable. When it encounters a binary operator expression, it checks if the expression has already been hashed. If it has, it returns the hashed version from the hash table. If not, it hashes its left and right sub-expressions, creates a new hashed expression using the same operator, and stores it in the hash table.
 
+## Let Functionality
+We added LET Functionality to code to give variable X from user as input and use it in the final expression like this:
+<br />
+Add(Sub(Add(Var('x'), Const(2)),Add(Var('x'), Const(2))),Sub(Add(Var('x'), Const(2)),Add(Const(5), Const(2))))
 
 ## Outputs
 <b>Example #1</b> <br />
