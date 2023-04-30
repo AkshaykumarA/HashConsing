@@ -21,7 +21,7 @@ Add(Sub(Add(<b>Var('x')</b>, Const(2)),Add(<b>Var('x')</b>, Const(2))),Sub(Add(<
 In this example the input expression is :  <b>  (((x + 2) - (x + 2)) + ((x + 2) - (5 + 2))) </b> <br />
 As you can see the number of calculation using hash consing is lower than computation with normal method. <br />
 
-![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/main/images/Screenshot1.png?raw=true)
+![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/main/images/SC1.png?raw=true)
 
 <b>Example #2</b> <br />
 In this example the input expression is :  <b>  (((5 + 2) - (3 + 2)) + ((7 + 2) - (1 + 2))) </b> <br />
