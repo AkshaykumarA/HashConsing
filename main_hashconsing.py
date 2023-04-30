@@ -145,6 +145,7 @@ x = float(input("Enter the value of x: "))
 
 env = {}
 let_expr = Let('x', Const(x), Add(Add(Var('x'), Const(2)),Add(Var('x'), Const(2))))
+# let_expr = Let('x', Const(x), Sub( Sub( Add( Sub( Add( Const(5), Const(2) ), Add( Const(3), Const(2) ) ), Sub( Add( Var('x'), Const(2) ), Add( Const(1), Const(2) ) ) ), Add( Const(1), Const(2) ) ), Sub( Add( Var('x'), Const(2) ), Add( Const(1), Const(2) ) ) ) )
 
 
 # Evaluation without HashConsing
