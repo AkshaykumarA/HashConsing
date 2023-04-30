@@ -24,7 +24,7 @@ As you can see the number of calculation using hash consing is lower than comput
 ![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/main/images/SC1.png?raw=true)
 
 <b>Example #2</b> <br />
-In this example the input expression is :  <b>  (((5 + 2) - (3 + 2)) + ((7 + 2) - (1 + 2))) </b> <br />
+In this example the input expression is :  <b>  (((5 + 2) - (3 + 2)) + ((x + 2) - (1 + 2))) </b> <br />
 As you can see the number of calculation with and without using hash consing is equal because there is no repeated expression. <br />
 
 ![Output Screenshot](https://github.com/shahrambashokian/HashConsing/blob/main/images/Screenshot2.png?raw=true)
